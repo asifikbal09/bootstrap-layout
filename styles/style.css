@@ -3,3 +3,13 @@
     font-style: normal;
     color: #fff;
 }
+.breakpoint{
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .breakpoint{
+      width: 100%;
+    }
+    
+  }
